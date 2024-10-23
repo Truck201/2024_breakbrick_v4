@@ -1,10 +1,10 @@
-import { Game } from "scenes/Game.js";
-import { Boot } from "scenes/Boot.js";
-import { Preloader } from "scenes/Preloader.js";
-import { ChooseLanguage } from "scenes/ChooseLanguage.js";
-import { MainMenu } from "scenes/MainMenu.js";
-import { GameOver } from "scenes/GameOver.js";
-import { Hud } from "scenes/Hud.js";
+import { Game } from "/scenes/Game.js";
+import { Boot } from "/scenes/Boot.js";
+import { Preloader } from "/scenes/Preloader.js";
+import { ChooseLanguage } from "/scenes/ChooseLanguage.js";
+import { MainMenu } from "/scenes/MainMenu.js";
+import { GameOver } from "/scenes/GameOver.js";
+import { Hud } from "/scenes/Hud.js";
 
 //  Find out more information about the Game Config at:
 //  https://newdocs.phaser.io/docs/3.70.0/Phaser.Types.Core.GameConfig
