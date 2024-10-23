@@ -1,11 +1,3 @@
-import { Boot } from "./scenes/Boot.js";
-import { Preloader } from "./scenes/Preloader.js";
-import { ChooseLanguage } from "./scenes/ChooseLanguage.js";
-import { MainMenu } from "./scenes/MainMenu.js";
-import { Game } from "./scenes/Game.js";
-import { GameOver } from "./scenes/GameOver.js";
-import { Hud } from "./scenes/Hud.js";
-
 // Configuración del juego
 const config = {
   type: Phaser.AUTO,
