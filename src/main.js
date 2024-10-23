@@ -27,5 +27,5 @@ const config = {
   scene: [Boot, Preloader, ChooseLanguage, MainMenu, Game, GameOver, Hud],
 };
 
-// Create a new Phaser game instance
-window.game = new Phaser.Game(config);
+// Inicializa el juego
+const game = new Phaser.Game(config);
