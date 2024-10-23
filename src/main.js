@@ -7,7 +7,6 @@ import { GameOver } from "./scenes/GameOver.js";
 import { Hud } from "./scenes/Hud.js";
 
 //  Find out more information about the Game Config at:
-//  https://newdocs.phaser.io/docs/3.70.0/Phaser.Types.Core.GameConfig
 const config = {
   type: Phaser.AUTO,
   width: 1024,
@@ -28,4 +27,5 @@ const config = {
   scene: [Boot, Preloader, ChooseLanguage, MainMenu, Game, GameOver, Hud],
 };
 
-export default new Phaser.Game(config);
+// Create a new Phaser game instance
+window.game = new Phaser.Game(config);
