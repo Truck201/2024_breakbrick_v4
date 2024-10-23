@@ -1,9 +1,9 @@
-import { Boot } from "./scenes/Boot";
 import { Game } from "./scenes/Game";
-import { GameOver } from "./scenes/GameOver";
-import { MainMenu } from "./scenes/MainMenu";
-import { ChooseLanguage } from "./scenes/ChooseLanguage";
+import { Boot } from "./scenes/Boot";
 import { Preloader } from "./scenes/Preloader";
+import { ChooseLanguage } from "./scenes/ChooseLanguage";
+import { MainMenu } from "./scenes/MainMenu";
+import { GameOver } from "./scenes/GameOver";
 import { Hud } from "./scenes/Hud";
 
 //  Find out more information about the Game Config at:
